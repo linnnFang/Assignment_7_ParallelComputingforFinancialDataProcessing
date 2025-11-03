@@ -1,0 +1,35 @@
+{
+  "summary_table": [
+    {
+      "Metric": "Ingestion Time (s)",
+      "Pandas": 0.0836969306692481,
+      "Polars": 0.004133083314324419
+    },
+    {
+      "Metric": "Rolling Mean Time (s)",
+      "Pandas": 0.03466054191812873,
+      "Polars": 0.004023832967504859
+    },
+    {
+      "Metric": "Memory Usage (MB)",
+      "Pandas": 20.600132,
+      "Polars": 5.9
+    },
+    {
+      "Metric": "Parallel Speed (s)",
+      "Pandas": 0.028049167012795806,
+      "Polars": 0.007088124984875321
+    }
+  ],
+  "discussion": {
+    "observations": {
+      "pandas": "Mature ecosystem and flexible for time-series operations.",
+      "polars": "Faster ingestion and parallelized expressions, ideal for large structured data."
+    },
+    "tradeoffs": {
+      "syntax": "Pandas feels natural for analysts; Polars requires functional-style thinking.",
+      "ecosystem": "Pandas integrates with scikit-learn, matplotlib, and statsmodels more smoothly.",
+      "scalability": "Polars handles multi-core and lazy evaluation better."
+    }
+  }
+}
